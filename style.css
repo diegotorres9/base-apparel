@@ -24,10 +24,17 @@ img {
 
 header {
   height: 80px;
-  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0 10px 0 20px;
+}
+
+.hero-image {
+  width: 100%;
+}
+.hero-image img {
+  width: 100%;
 }
 
 .info {
@@ -35,6 +42,62 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.info h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 42px;
+  color: #ce9797;
+  align-self: center;
+  justify-self: center;
+  letter-spacing: 8px;
+  margin: 40px 32px;
+}
+.info span {
+  font-weight: 600;
+  color: #413a3a;
+  text-align: center;
+}
+.info p {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  color: #ce9797;
+  font-size: 16px;
+  line-height: 2;
+  margin: 0 32px 40px 32px;
+}
+.info form {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 0 32px 40px 32px;
+}
+.info form input {
+  height: 40px;
+  border: 1px solid #ce9797;
+  border-radius: 20px;
+  flex-grow: 2;
+}
+.info form input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ce9797;
+  font-size: 16px;
+}
+.info form input:focus {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ce9797;
+  font-size: 16px;
+}
+.info form button {
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border: none;
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  margin-left: 270px;
 }
 
 /*# sourceMappingURL=style.css.map */
